@@ -4,3 +4,19 @@ body {
     background-color: #8a71c9;
     color: #fff;
 }
+
+.subtitle {
+    color: #2a0074;
+}
+
+.green-title {
+    color: #05ff9f;
+}
+
+.red-title {
+    color: #FF9E9E;
+}
+
+.yellow-title {
+    color: #ffe36d;
+}
