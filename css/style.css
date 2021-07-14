@@ -5,6 +5,10 @@ body {
     color: #fff;
 }
 
+.main-section {
+    max-width: 60%;
+}
+
 .subtitle {
     color: #2a0074;
 }
