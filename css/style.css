@@ -26,14 +26,7 @@ h3 {
     font-style: italic;
 }
 
-p {
-    font-size: 20px;
-    line-height: 1.5;
-}
 
-img {
-    width: 100%;
-}
 
 .green-title {
     color: #05ff9f;
@@ -45,4 +38,17 @@ img {
 
 .yellow-title {
     color: #ffe36d;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
 }
