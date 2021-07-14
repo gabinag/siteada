@@ -52,3 +52,10 @@ img {
 ul {
     list-style-type: none;
 }
+
+.link {
+    color: #99ffff;
+    font-weight: 700;
+    line-height: 2; 
+    text-decoration: none;
+}
