@@ -77,6 +77,10 @@ ul {
     text-decoration: none;
 }
 
+.link:hover {
+    color: #04cece;
+}
+
 form {
     margin-bottom: 30px;
     padding: 20px 0;
@@ -112,4 +116,11 @@ button{
     color: #fff;
     font-size: 16px;
     font-weight: 700;
+    
    }
+
+button:hover {
+    transform: scale(1.06);
+    transition-delay: 10ms;
+    cursor: pointer;
+}
