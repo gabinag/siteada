@@ -12,7 +12,8 @@ body {
 }
 
 .menu {
-    background-color:  #fd7cbd;
+    background-color:  #df5fff;
+    border-radius: 5px;
     max-width: 60%;
     margin: auto;
 }
@@ -42,8 +43,6 @@ h3 {
     font-size: 22px;
     font-style: italic;
 }
-
-
 
 .green-title {
     color: #05ff9f;
