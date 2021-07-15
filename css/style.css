@@ -76,3 +76,40 @@ ul {
     font-weight: 700;
     text-decoration: none;
 }
+
+form {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background-color: #2b007488;
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    margin-right: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    font-size: 16px;
+}
+
+button{
+    background: #fd7cbd;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+   }
