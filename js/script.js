@@ -1,8 +1,10 @@
-const nome = document.getElementById("nome").value;
-const email = document.getElementById("email").value;
 
-if( nome != "" &&  email != ""){
+document.getElementById("enviar").addEventListener("click", validaFormulario)
+
+function validaFormulario() {
+    if(document.getElementById("nome").value != "" && document.getElementById("email").value != ""){
     alert("Prontinho! Você receberá as novidades por email.");
-}else{
+    }else{
     alert("Por favor, preencha os campos nome e email!");
- }
+    }
+}
