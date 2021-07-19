@@ -103,8 +103,15 @@ form {
 
 legend {
     font-size: 1.15rem;
-    margin-bottom: 20px;
     font-style: italic;
+    margin-bottom: 1em;
+}
+
+.wrap-name {
+    margin-bottom: 1em;
+}
+.wrap-email {
+    margin-bottom: 1.5em;
 }
 
 label {
@@ -112,7 +119,6 @@ label {
 }
 
 input {
-    margin-right: 20px;
     border-radius: 3px;
     border: none;
     padding: 3px;
