@@ -5,6 +5,10 @@ body {
     color: #fff;
     margin: 0;
 }
+.main-header {
+    margin-top: 3.5em;
+    margin-bottom: 4.5em;
+}
 
 .main-title {
     font-size: 3rem;
@@ -39,11 +43,23 @@ body {
 .subtitle {
     color: #2a0074;
     font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+img {
+    width: 100%;
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-style: italic;
+    margin-top: 2em;
 }
 
 .green-title {
@@ -58,19 +74,11 @@ h3 {
     color: #ffe36d;
 }
 
-p {
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-
-img {
-    width: 100%;
-}
-
 .divas-list {
     list-style-type: none;
     line-height: 2; 
     padding-left: 0;
+    margin-bottom: 3em;
 }
 
 .link {
