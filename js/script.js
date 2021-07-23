@@ -2,7 +2,11 @@
 document.getElementById("enviar").addEventListener("click", validaFormulario)
 
 function validaFormulario() {
-    if(document.getElementById("nome").value != "" && document.getElementById("email").value != ""){
+    
+    let nome = document.getElementById("nome");
+    let email = document.getElementById("email");
+
+    if(nome.value != "" && email.value != ""){
     alert("Prontinho! Você receberá as novidades por email.");
     }else{
     alert("Por favor, preencha os campos nome e email!");
