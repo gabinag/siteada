@@ -1,11 +1,36 @@
 @media screen and (max-width: 562px) {
 
     .main-header {
-        margin: 2rem 0;
+        margin: 2rem;
     }
 
     .main-title {
         font-size: 2rem;
     }
+
+    .menu, .main-section, form  {
+        max-width: 70%;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu-link {
+        margin: .2em;
+    }
+
+    .subtitle {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        margin: 1em;
+    }
+
 }
 
